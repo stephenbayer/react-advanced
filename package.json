@@ -1,0 +1,39 @@
+{
+  "name": "react-advanced",
+  "version": "1.0.0",
+  "description": "Advanced React Tutorial",
+  "main": "lib/server.js",
+  "repository": "https://github.com/stephenbayer/react-advanced.git",
+  "author": "Stephen Bayer <sabayer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "SET DEBUG=*& nodemon --exec babel-node lib\\server.js"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
