@@ -7,6 +7,7 @@
   "author": "Stephen Bayer <sabayer@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "webpack": "webpack -wd",
     "dev": "SET DEBUG=*& nodemon --exec babel-node lib\\server.js"
   },
   "babel": {
@@ -21,10 +22,12 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint-plugin-react": "^7.9.1",
+    "webpack-cli": "^3.0.4"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
@@ -34,6 +37,7 @@
     "express": "^4.16.3",
     "nodemon": "^1.17.5",
     "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react-dom": "^16.4.0",
+    "webpack": "^4.12.0"
   }
 }
